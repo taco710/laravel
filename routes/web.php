@@ -19,7 +19,7 @@ Route::get('/', function () {
 
 
 
-
+Route::get('xxx', 'AAA\Controller@bbb');
 
 Route::get('admin/profile/create', 'Admin\profileController@create');
 
